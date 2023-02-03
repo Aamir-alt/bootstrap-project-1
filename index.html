@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,800;0,900;1,300&display=swap"
+		rel="stylesheet">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- topbar -->
+
+	<div class="topbar">
+		<div class="container">
+			<div class="row">
+
+				<!-- left section -->
+
+				<div class="col-md-6">
+					<div class="emails">
+						<a style="color:#000;"><i class="fa fa-phone"
+								style="color:#d64751;"></i>&nbsp;&nbsp;+92-300-1234567</a>
+						<a style="color:#000;"><i class="fa fa-envelope"
+								style="color:#d64751;"></i>&nbsp;&nbsp;info@domainname.com</a>&nbsp;&nbsp;
+					</div>
+				</div>
+
+				<!-- right section -->
+
+				<div class="col-md-6">
+					<div id="flagtranslator">
+						<ul>
+							<li><a href="#" onclick="doGTranslate('en|en');return false;">
+									<img src="images/flag.png" alt="Translate in English">
+								</a></li>
+							<li><a href="#" onclick="doGTranslate('en|fr');return false;">
+									<img src="images/flag.png" alt="Translate in English">
+								</a></li>
+							<li><a href="#" onclick="doGTranslate('en|de');return false;">
+									<img src="images/flag.png" alt="Translate in English">
+								</a></li>
+
+							<li><a href="#" onclick="doGTranslate('en|ru');return false;">
+									<img src="images/flag.png" alt="Translate in English">
+								</a></li>
+							<li><a href="#" onclick="doGTranslate('en|es');return false;">
+									<img src="images/flag.png" alt="Translate in English">
+								</a></li>
+
+							<li><a href="#" onclick="doGTranslate('en|es');return false;">
+									<img src="images/flag.png" alt="Translate in English">
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- header -->
+
+	<header>
+		<div class="container bg-color">
+			<nav class="navbar navbar-expand-lg navbar-light">
+
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png" alt="" width="100px" height="50">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+					aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarScroll">
+
+					<ul class="navbar-nav m-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active " aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item dropdown hoverable">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								company
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">one</a></li>
+								<li><a class="dropdown-item" href="#">two</a></li>
+								<li><a class="dropdown-item" href="#">three</a></li>
+
+
+								<!-- <li class="nav-item dropend hoverable">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">
+										Dropdown
+									</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">three</a></li>
+										<li><a class="dropdown-item" href="#">four</a></li>
+									</ul> -->
+
+								<!-- </li> -->
+							</ul>
+						</li>
+						<li class="nav-item dropdown hoverable">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Products
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">four</a></li>
+								<li><a class="dropdown-item" href="#">five</a></li>
+								<li><a class="dropdown-item" href="#">six</a></li>
+
+
+								<!-- <li class="nav-item dropend hoverable">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">
+										Dropdown
+									</a>  <ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">seven</a></li>
+										<li><a class="dropdown-item" href="#">eight</a></li>
+
+
+									</ul> -->
+								<!-- </li> -->
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link">process</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link">contact us</a>
+						</li>
+					</ul>
+					<div class="icon-section">
+						<div class="search">
+							<img src="images/search.png" class="fa fa-search" alt="">
+							<!-- <i class="fa fa-search" aria-hidden="true"></i>				 -->
+
+							<div class="togglesearch">
+								<form>
+									<input type="text" placeholder="" class="search" required />
+									<button type="" value="">Search</button>
+								</form>
+							</div>
+
+						</div>
+
+						<div class="cart">
+							<img src="images/shopping-cart.png" alt="">
+						</div>
+					</div>
+				</div>
+
+			</nav>
+		</div>
+	</header>
+
+	<!-- hero-slider- -->
+
+	<section id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/slider.jpg" alt="banner01" class="img-responsive center-block" />
+			</div>
+			<div class="carousel-item">
+				<img src="images/slider.jpg" alt="banner01" class="img-responsive center-block" />
+			</div>
+			<div class="carousel-item">
+				<img src="images/slider.jpg" alt="banner01" class="img-responsive center-block" />
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</section>
+
+
+	<!-- about us section -->
+
+	<section class="about">
+		<div class="container ">
+			<div class="row ">
+				<div class="col-md-8 mx-auto text-center">
+					<span class="common-span">ABOUT</span>
+					<h2 class="common-heading">COMPANY NAME </h2>
+					<P>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit voluptas ea mollitia aperiam nihil
+						consequatur corporis reiciendis, iure, porro doloribus hic officiis saepe quia, pariatur
+						eligendi
+						molestias provident accusantium! Consectetur, tempora doloribus tenetur labore molestiae vero.
+						Veritatis veniam asperiores, rerum ab iusto recusandae deleniti, saepe qui ullam, ex pariatur
+						repellat!
+					</P>
+					<a href="#" class="common-btn">Read More...</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- services section -->
+
+	<section class="services">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-6">
+					<div class="service-box">
+						<span>
+							<i class="fa fa-anchor"></i>
+						</span>
+						<div class="service-text">
+							<h3>BEST PRICE</h3>
+							<p>Offer for valuable customers.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-6">
+					<div class="service-box">
+						<span>
+							<i class="fa fa-anchor"></i>
+						</span>
+						<div class="service-text">
+							<h3>BEST QUALITY</h3>
+							<p>We provide best quality products.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-6">
+					<div class="service-box">
+						<span>
+							<i class="fa fa-anchor"></i>
+						</span>
+						<div class="service-text">
+							<h3>CUSTOM MADE</h3>
+							<p>Sportwear made to order.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-6">
+					<div class="service-box">
+						<span>
+							<i class="fa fa-anchor"></i>
+						</span>
+						<div class="service-text">
+							<h3>LOW MOQ'S</h3>
+							<p>A minimum of 6 items.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<!-- categories section -->
+
+	<section class="categories">
+		<div class="container">
+			<div class="row ">
+				<div class="col-sm-6 Grid">
+					<div class="box">
+						<a class="cat-cell" href="#">
+							<img class="cat-img" src="images/common.jpg" style="height: 300px;">
+							<span class="cat-overlay"></span>
+							<span class="cat-text">FITNESS WEAR</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 Grid">
+					<div class="box">
+						<a class="cat-cell" href="#">
+							<img class="cat-img" src="images/common.jpg" style="height: 300px;">
+							<span class="cat-overlay"></span>
+							<span class="cat-text">FITNESS WEAR</span>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 Grid">
+					<div class="box">
+						<a class="cat-cell" href="#">
+							<img class="cat-img" src="images/common.jpg" style="height: 300px;">
+							<span class="cat-overlay"></span>
+							<span class="cat-text">FITNESS WEAR</span>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 Grid">
+					<div class="box">
+						<a class="cat-cell" href="#">
+							<img class="cat-img" src="images/common.jpg" style="height: 300px;">
+							<span class="cat-overlay"></span>
+							<span class="cat-text">FITNESS WEAR</span>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- choose us -->
+
+	<section class="choose">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-6  text-center">
+					<span class="common-span">COMPANY NAME</span>
+					<h2 class="common-heading">COMPANY NAME </h2>
+					<P>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit voluptas ea mollitia aperiam nihil
+						consequatur corporis reiciendis, iure, porro doloribus hic officiis saepe quia, pariatur
+						eligendi molestias provident accusantium! Consectetur, tempora doloribus tenetur labore
+						molestiae vero. Veritatis veniam asperiores, rerum ab iusto recusandae deleniti, saepe qui
+						ullam, ex pariatur repellat!
+					</P>
+
+					<div class="row">
+						<div class="col-md-6  text-center">
+							<div class="icon-box">
+								<img src="images/icon.png">
+								<div class="text">
+									<h3>INTEGRITY</h3>
+									<p>We have honest proffessionals and committed to the work we do .
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6  text-center">
+							<div class="icon-box">
+								<img src="images/icon.png">
+								<div class="text">
+									<h3>INTEGRITY</h3>
+									<p>We have honest proffessionals and committed to the work we do .
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6  text-center">
+							<div class="icon-box">
+								<img src="images/icon.png">
+								<div class="text">
+									<h3>INTEGRITY</h3>
+									<p>We have honest proffessionals and committed to the work we do .
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6  text-center">
+							<div class="icon-box">
+								<img src="images/icon.png">
+								<div class="text">
+									<h3>INTEGRITY</h3>
+									<p>We have honest proffessionals and committed to the work we do .
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-lg-6 text-center">
+					<div class="choose-img"><img src="images/common.jpg"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- sublimation -->
+
+	<section class="sublimation">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-6 text-center">
+					<div class="sublimation-img"><img src="images/common.jpg"></div>
+				</div>
+				<div class="col-lg-6">
+					<h2>SUBLIMATED PLAYING KIT </h2>
+					<h6> A unique design in your own colors
+					</h6>
+					<P>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit voluptas ea mollitia aperiam nihil
+						consequatur corporis reiciendis, iure, porro doloribus hic officiis saepe quia, pariatur
+						eligendi molestias provident accusantium! Consectetur, tempora doloribus tenetur labore
+						molestiae vero. Veritatis veniam asperiores, rerum ab iusto recusandae deleniti, saepe qui
+						ullam, ex pariatur repellat!
+					</P>
+					<a href="#" class="common-btn">CONTACT US</a>
+				</div>
+			</div>
+
+
+		</div>
+
+	</section>
+
+
+	<!-- Establish -->
+
+	<section class="establish">
+
+		<div class="container ">
+			<div class="row">
+				<div class="col-lg-3 col-6 text-center">
+
+					<div class="text">
+						<h2>2015</h2>
+						<p>Established In.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-6 text-center">
+
+					<div class="text">
+						<h2>2015</h2>
+						<p>Established In.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-6 text-center">
+
+					<div class="text">
+						<h2>2015</h2>
+						<p>Established In.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-6 text-center">
+
+					<div class="text">
+						<h2>2015</h2>
+						<p>Established In.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- featured section -->
+
+	<section class="featured">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12  text-center">
+					<span class="common-span">HIGH QUALITY</span>
+					<h2 class="common-heading">Featured Products </h2>
+
+
+					<div class="row">
+						<div class="col-lg-3 col-6 text-center">
+							<div class="image-box">
+
+								<a href="#">
+									<img src="images/common.jpg">
+									<span><i class="fa fa-plus" aria-hidden="true"></i></span>
+								</a>
+
+							</div>
+
+							<div class="text">
+
+								<h3>Soccer Uniform</h3>
+								<p>CN-101
+								</p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-6 text-center">
+							<div class="image-box">
+
+								<a href="#">
+									<img src="images/common.jpg">
+									<span><i class="fa fa-plus" aria-hidden="true"></i></span>
+								</a>
+
+							</div>
+
+							<div class="text">
+
+								<h3>Soccer Uniform</h3>
+								<p>CN-101
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6 text-center">
+							<div class="image-box">
+
+								<a href="#">
+									<img src="images/common.jpg">
+									<span><i class="fa fa-plus" aria-hidden="true"></i></span>
+								</a>
+
+							</div>
+
+							<div class="text">
+
+								<h3>Soccer Uniform</h3>
+								<p>CN-101
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6 text-center">
+							<div class="image-box">
+
+								<a href="#">
+									<img src="images/common.jpg">
+									<span><i class="fa fa-plus" aria-hidden="true"></i></span>
+								</a>
+
+							</div>
+
+							<div class="text">
+
+								<h3>Soccer Uniform</h3>
+								<p>CN-101
+								</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+	</section>
+
+
+	<!-- Certifications -->
+
+	<section class="certification">
+		<div class="container">
+
+			<div class="items">
+				<div> <img src="images/chamber.jpg" /></div>
+				<div> <img src="images/chamber.jpg" /></div>
+				<div> <img src="images/chamber.jpg" /></div>
+				<div> <img src="images/chamber.jpg" /></div>
+				<div> <img src="images/chamber.jpg" /></div>
+				<div> <img src="images/chamber.jpg" /></div>
+				<div> <img src="images/chamber.jpg" /></div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Newsletter section -->
+
+	<section class="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 mx-auto text-center">
+					<h4 class="">Stay tuned for new and exciting design in the future </h4>
+					<P>
+						Signup to our newsletter for exclusive release dates and promotions
+					</P>
+
+
+					<div class="newsletter-form">
+
+
+						<form class="form">
+							<input type="text" name="" id="" required>
+
+							<button type="submit" name=""><i class="fa fa-envelope"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+
+	<footer class="text-center text-lg-start">
+
+		<!-- Grid container -->
+
+		<div class="container">
+
+			<!--Grid row-->
+
+			<div class="row">
+
+				<!--Grid column-->
+
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+					<div class="f-heading">
+						<h5>Categories</h5>
+					</div>
+					<div class="f-list">
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="#!" class="">Sportwear</a>
+							</li>
+							<li>
+								<a href="#!" class="">Sportwear</a>
+							</li>
+							<li>
+								<a href="#!" class="">Sportwear</a>
+							</li>
+							<li>
+								<a href="#!" class="">Sportwear</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--Grid column-->
+
+				<!--Grid column-->
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+					<div class="f-heading">
+
+						<h5>Information</h5>
+					</div>
+
+					<div class="f-list">
+
+						<ul class="list-unstyled">
+							<li>
+								<a href="#!" class="">About Us</a>
+							</li>
+							<li>
+								<a href="#!" class="">Gallery</a>
+							</li>
+							<li>
+								<a href="#!" class="">Terms & Conditions</a>
+							</li>
+							<li>
+								<a href="#!" class="">Process</a>
+							</li>
+							<li>
+								<a href="#!" class="">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--Grid column-->
+
+				<!--Grid column-->
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+					<div class="payment">
+						<div class="f-heading">
+
+							<h5>Accepted Payments</h5>
+
+						</div>
+
+						<div class="f-list">
+							<img src="images/pay.png" class="pay-img" alt="" />
+
+						</div>
+					</div>
+					<div class="shipping mt-4">
+						<div class="f-heading">
+
+							<h5>Shipping Method</h5>
+						</div>
+
+						<div class="f-list">
+							<img src="images/pay.png" class="pay-img" alt="" />
+
+						</div>
+					</div>
+
+				</div>
+
+				<!--Grid column-->
+
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+					<a href="#">
+						<img src="images/logo.png" class="f-logo">
+					</a>
+					<!-- <img src="images/logo.png" class="f-logo"> -->
+
+					<div class="quick-contact">
+						<ul>
+							<li>
+								<a href="#"><i class="fa fa-map-marker"></i> Kacha Shahab Pura, Small Industrial Estate
+									Sialkot, 51310, Pakistan</a>
+							</li>
+							<li>
+								<a href="mailto:info@rampusinternational.com"><i class="fa fa-envelope"></i>
+									info@rampusinternational.com</a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-phone"></i>0300-1088150</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="socialbtm">
+						<ul>
+							<li>
+								<a href="http://www.facebook.com">
+									<img src="images/social1.png">
+								</a>
+							</li>
+							<li>
+								<a href="http://www.facebook.com">
+									<img src="images/social2.png">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/rampusinternational/">
+									<img src="images/social3.png">
+								</a>
+							</li>
+							<li>
+								<a href="http://www.facebook.com">
+									<img src="images/social4.png">
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<!--Grid column-->
+			</div>
+			<!--Grid row-->
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div class="text-center p-3 f-bottom">
+				© 2022 Copyright:
+				<a class="" href="https://mdbootstrap.com/"> Company Name </a> All rights reserved
+			</div>
+			<!-- Copyright -->
+		</div>
+
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+		integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.bundle.js">
+
+	</script>
+
+
+</html>
